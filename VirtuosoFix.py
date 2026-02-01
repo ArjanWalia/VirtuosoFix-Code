@@ -9,11 +9,11 @@ import copy
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-score_ask_m = '/Users/mandeepwalia/Desktop/midi_real/Input midi/mary-had-a-little-lamb_midi.mid'
-audio_ask =   '/Users/mandeepwalia/Desktop/midi_real/Input MP3/12:26_2.mp3'
-audio_ask_m = '/Users/mandeepwalia/Desktop/midi_real/Input midi/12:26_2_mid.mid'
-sf2_path = '/Users/mandeepwalia/Desktop/midi_real/TimGM6mb.sf2'
-output_path_final = '/Users/mandeepwalia/Desktop/midi_real/Output final file'
+score_ask_m = ''
+audio_ask =   ''
+audio_ask_m = ''
+sf2_path = ''
+output_path_final = ''
 
 
 def cut_end(score_list, audio_list):
