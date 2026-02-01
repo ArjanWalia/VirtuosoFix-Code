@@ -9,11 +9,11 @@ import copy
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-score_ask_m = ''
-audio_ask =   ''
-audio_ask_m = ''
-sf2_path = ''
-output_path_final = ''
+score_ask_m =
+audio_ask =  
+audio_ask_m = 
+sf2_path = 
+output_path_final = 
 
 
 def cut_end(score_list, audio_list):
